@@ -77,4 +77,8 @@ Node.js Hello World on CentOS using [docker][].
 
 -   Print app output
 
-        sudo docker logs <container id>		
+        sudo docker logs <container id>	
+
+-   Accéder au bash du container
+
+        docker run -i -t image /bin/bash		
